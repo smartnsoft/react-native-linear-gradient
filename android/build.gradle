@@ -20,7 +20,7 @@ def _targetSdkVersion = _ext.has('targetSdkVersion') ? _ext.targetSdkVersion : 2
 
 android {
     compileSdkVersion _compileSdkVersion
-    buildToolsVersion '26.0.1'
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         minSdkVersion _minSdkVersion
